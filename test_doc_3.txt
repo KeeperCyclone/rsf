@@ -1,0 +1,7 @@
+This is a document. In default settings, this shouldn't show up.
+
+rsf:
+- 2022-07-10
+- 2022-07-30
+
+At `-ref='2022-07-18'`, it would take `-o 8 -a 12` to capture this document, so it *really* shouldn't show up under the intended `-o 4 -a 2` testing.
