@@ -78,7 +78,7 @@ NoDueDateFound : doc_1.md
 NoDueDateFound : README.md
 ```
 
-- `--reference | -ref <ISODATE>` makes the current date appear to be July 10.
+- `--reference | -ref <ISODATE>` makes the current date appear to be ISODATE.
 - `--overdue | -o <DAYS>` captures due dates that are DAYS days overdue; default: 3.
 - `--advance | -a <DAYS>` captures due dates DAYS days in advance.
 - `--verbose | -v` displays all file reading results:
