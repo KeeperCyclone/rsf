@@ -89,7 +89,9 @@ NoDueDateFound : README.md
 - `--limit | -l <LINES>` limits the script to reading the first LINES lines of a file.
   Useful if you have extremely long files and you happen to just put your RSF
   dateblocks at the very start of every file; default: 0 (no limit).
-  - Note that dateblocks can be sliced 
+  - Note: Dateblocks can be accidentally sliced if they are caught in the limit; there 
+    is no mechanism to "continue just a bit more" to capture the rest of a detected 
+    dateblock.
 
 The `-ref`, `-o`, and `-a` options together effectively allow the user to define an
 arbitrary date range.
